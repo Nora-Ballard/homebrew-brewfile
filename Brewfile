@@ -5,13 +5,14 @@ tap "caskroom/fonts"
 brew "aria2"
 brew "mosh"
 brew "gitup"
-brew "docker"
 brew "trash"
 brew "git"
 brew "gpg"
 brew "gpg-agent"
 brew "pinentry"
 brew "pinentry-mac"
+brew "jq"
+brew "rmate"
 
 brew "mas"
 # mas list
@@ -33,17 +34,18 @@ mas "Affinity Photo", id: 824183456
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
-mas "Transmit", id: 403388562
 mas "Bear", id: 1091189122
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Slack", id: 803453959
 mas "PopClip", id: 445189367
 mas "SSH Tunnel", id: 734418810
+mas "Kaleidoscope", id: 587512244
 
 cask "hyper"
 cask "keybase"
 cask "vagrant"
 cask "iterm2"
+cask "docker"
 cask "google-chrome"
 cask "visual-studio-code"
 cask "dash"
@@ -58,9 +60,10 @@ cask "keepingyouawake"
 cask "powershell"
 cask "backblaze"
 cask "appcleaner"
-cask "kaleidoscope"
+cask "ksdiff"
 cask "steam"
-#cask "transmit"
 cask "virtualbox"
 cask "gpg-suite"
 cask "font-fira-code"
+cask "transmit"
+cask "1password-cli"
