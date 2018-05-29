@@ -1,7 +1,9 @@
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 tap "caskroom/fonts"
+tap "kryptco/tap"
 
+brew "kryptco/tap/kr"
 brew "aria2"
 brew "mosh"
 brew "gitup"
@@ -13,6 +15,7 @@ brew "pinentry"
 brew "pinentry-mac"
 brew "jq"
 brew "rmate"
+brew "ctags"
 
 brew "mas"
 # mas list
@@ -25,10 +28,9 @@ mas "BetterSnapTool", id: 417375580
 mas "Textual", id: 896450579
 mas "Evernote", id: 406056744
 mas "Rested", id: 421879749
-mas "Caffeine", id: 411246225
 mas "ScreenSharingMenulet", id: 578078659
 mas "The Unarchiver", id: 425424353
-mas "1Password", id: 443987910
+mas "1Password 7", id: 1333542190
 mas "Serial", id: 877615577
 mas "Affinity Photo", id: 824183456
 mas "Numbers", id: 409203825
@@ -40,6 +42,7 @@ mas "Slack", id: 803453959
 mas "PopClip", id: 445189367
 mas "SSH Tunnel", id: 734418810
 mas "Kaleidoscope", id: 587512244
+mas "Core Tunnel – SSH Tunnel 2", id:1354318707
 
 cask "hyper"
 cask "keybase"
@@ -61,9 +64,10 @@ cask "powershell"
 cask "backblaze"
 cask "appcleaner"
 cask "ksdiff"
-cask "steam"
 cask "virtualbox"
 cask "gpg-suite"
 cask "font-fira-code"
 cask "transmit"
 cask "1password-cli"
+cask "discord"
+cask "keepingyouawake"
